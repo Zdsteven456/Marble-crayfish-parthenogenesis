@@ -9,6 +9,8 @@ what genes in marble crayfish are homologous with other species that aren't and 
   2. K03363 (CDC20)
   3. K05867 (CDC25C)
   4. K02087 (CDC2,CDK1)
+  5. Cyclin B
+  6. Mos
 # organisms
  - Marbel Crayfish
  - Aphid
