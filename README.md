@@ -11,6 +11,9 @@ what genes in marble crayfish are homologous with other species that aren't and 
   4. K02087 (CDC2,CDK1)
   5. Cyclin B
   6. Mos
+  7. PLCZ
+  8. IP3R
+  9. Calm
 # organisms
  - Marbled Crayfish, Procambarus Virginalis
  - Slough Crayfish, Procambarus fallax, no morphilogical difference from the marbled crayfish
