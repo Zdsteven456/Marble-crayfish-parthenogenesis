@@ -50,6 +50,49 @@ conda deactivate
 ```
 bash download_sra.sh
 ```
+# Quantify Gene Expression in Salmon
+```
+module load anaconda3
+conda create -n salmon_env salmon -c bioconda -c conda-forge
+conda activate salmon_env
+```
+- Building salmon index
+```
+salmon index -t reference.fasta -i salmon_index
+```
+- Write a slurm script to run salmon using all the sequences at the same time
+```
+vi salmon.slurm
+```
+-Type `I` and paste the following:
+```
+#!/bin/bash
+#SBATCH --job-name=salmon_quant
+#SBATCH --output=logs/salmon_%A_%a.out
+#SBATCH --error=logs/salmon_%A_%a.err
+#SBATCH --array=1-$(wc -l < SRR_Accessions.txt)
+#SBATCH --time=02:00:00
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32G
+
+module load anaconda3
+conda activate salmon_env
+
+# Get accession number for this task
+ACCESSION=$(sed -n "${SLURM_ARRAY_TASK_ID}p" SRR_Accessions.txt)
+
+# Run Salmon
+salmon quant -i salmon_index \
+             -l A \
+             -1 fastq_files/${ACCESSION}_1.fastq.gz \
+             -2 fastq_files/${ACCESSION}_2.fastq.gz \
+             -p 8 \
+             -o salmon_output/${ACCESSION}_quant
+```
+- Escape and type `:wq`
+- Run the slurm scrip
+```
+sbatch salmon.slurm
 
 
 # Findings
