@@ -35,5 +35,13 @@ vi download_sra.sh
 ```
 - Type I
 ```
-
+#!/bin/bash
+conda activate sra-tools
+ while read -r SRR; do
+   echo "Downloading $SRR..."
+   prefetch --max-size 100G $SRR 
+   fasterq-dump --gzip $SRR --split-files -O fastq_files/
+done < SRR_Accessions.txt
+conda deactivate
+```
 # Findings
