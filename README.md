@@ -20,7 +20,20 @@ what genes in marble crayfish are homologous with other species that aren't and 
  - Redswamp crayfish, Procambarus clarkii
 # Data to down load genes
 1. Genes
-   -
+   reference.fasta
 2. organism genomes
    -
+## DOWNLOAD DATA
+```
+module load anaconda3
+conda create -n sra-tools -c bioconda -c conda-forge sra-tools
+```
+
+
+```
+vi download_sra.sh
+```
+- Type I
+```
+
 # Findings
