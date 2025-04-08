@@ -36,6 +36,7 @@ vi download_sra.sh
 - Type I
 ```
 #!/bin/bash
+module load anaconda3
 conda activate sra-tools
  while read -r SRR; do
    echo "Downloading $SRR..."
@@ -44,8 +45,11 @@ conda activate sra-tools
 done < SRR_Accessions.txt
 conda deactivate
 ```
+-script may give you an error if anaconda3 was loaded before script was run, exit the HPC and run it again.
 -Run script using
 ```
 bash download_sra.sh
 ```
+
+
 # Findings
