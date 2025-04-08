@@ -44,4 +44,8 @@ conda activate sra-tools
 done < SRR_Accessions.txt
 conda deactivate
 ```
+-Run script using
+```
+bash download_sra.sh
+```
 # Findings
