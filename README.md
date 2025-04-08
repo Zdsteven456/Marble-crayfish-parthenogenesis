@@ -3,9 +3,21 @@
 
 ## What is the plan
 # summry
-what genes in marble crayfish are homologous with other species that preform Parthenogensis. i want to find out by blasting know gene regions of parthenogensis to the marble crayfish in said region and see how it is different/similar in order to see homologous relations between the two species.
+what genes in marble crayfish are homologous with other species that aren't and are parthenogenisis using known genes in Meiosis to find homologues genes between parthogenesis speices and non-parthogensis species. 
 # genes 
-  1. K10318 (EMI2)
+  1. K10318 (EMI2,FBXO43)
   2. K03363 (CDC20)
   3. K05867 (CDC25C)
-  
+  4. K02087 (CDC2,CDK1)
+# organisms
+ - Marbel Crayfish
+ - whiptail lizard
+ - Adineta vaga
+ - Aphid???
+ - control creature (idk)
+# Data to down load genes
+1. Genes
+   -
+2.  organism genomes
+   -
+# Findings
