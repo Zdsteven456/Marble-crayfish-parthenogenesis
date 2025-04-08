@@ -12,9 +12,9 @@ what genes in marble crayfish are homologous with other species that aren't and 
   5. Cyclin B
   6. Mos
 # organisms
- - Marbel Crayfish
- - Aphid
- - control creature (Redswamp crayfish)
+ - Marbled Crayfish, Procambarus Virginalis
+ - Slough Crayfish, Procambarus fallax, no morphilogical difference from the marbled crayfish
+ - Redswamp crayfish, Procambarus clarkii
 # Data to down load genes
 1. Genes
    -
