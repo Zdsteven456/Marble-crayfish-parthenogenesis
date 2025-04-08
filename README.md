@@ -11,13 +11,11 @@ what genes in marble crayfish are homologous with other species that aren't and 
   4. K02087 (CDC2,CDK1)
 # organisms
  - Marbel Crayfish
- - whiptail lizard
- - Adineta vaga
- - Aphid???
- - control creature (idk)
+ - Aphid
+ - control creature (Redswamp crayfish)
 # Data to down load genes
 1. Genes
    -
-2.  organism genomes
+2. organism genomes
    -
 # Findings
