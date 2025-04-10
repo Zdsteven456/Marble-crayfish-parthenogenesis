@@ -70,8 +70,8 @@ vi salmon.slurm
 #SBATCH --job-name=salmon_quant
 #SBATCH --output=logs/salmon_%A_%a.out
 #SBATCH --error=logs/salmon_%A_%a.err
-#SBATCH --array=1-$(wc -l < SRR_Accessions.txt)
-#SBATCH --time=02:00:00
+#SBATCH --array=1-34
+#SBATCH --time=04:00:00
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=32G
 
@@ -84,8 +84,8 @@ ACCESSION=$(sed -n "${SLURM_ARRAY_TASK_ID}p" SRR_Accessions.txt)
 # Run Salmon
 salmon quant -i salmon_index \
              -l A \
-             -1 fastq_files/${ACCESSION}_1.fastq.gz \
-             -2 fastq_files/${ACCESSION}_2.fastq.gz \
+             -1 fastq_files/${ACCESSION}_1.fastq \
+             -2 fastq_files/${ACCESSION}_2.fastq \
              -p 8 \
              -o salmon_output/${ACCESSION}_quant
 ```
