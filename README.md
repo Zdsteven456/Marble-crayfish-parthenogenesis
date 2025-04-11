@@ -199,4 +199,9 @@ ggplot(combined_df, aes(x = log2FoldChange, y = gene, fill = signif)) +
   )
   ```
 
+### Graph Legend
+
+Differential expression of genes involved in the meiotic exit pathway. Bar length indicates the log₂ fold change in expression of each gene in Procambarus virginalis compared to Procambarus clarkii and Procambarus fallax.
+Asterisks (*) denote statistically significant differential expression (adjusted p-value < 0.05). The dashed vertical line represents zero (no change in expression). All genes shown are known or predicted to play roles in the regulation of meiotic exit.
+
 
