@@ -101,7 +101,7 @@ sbatch salmon.slurm
 # Findings
 The old quant.sf files were used to visualize gene expression in R. The following R script was used:
 - Note that folder `salmon_output` and `sample_metadata.csv` must be in the same R directory. The R script was also added to this repository
-```
+```R
 #Conditional Package Installation
 packages <- c("dplyr", "ggplot2", "tximport", "DESeq2")
 
