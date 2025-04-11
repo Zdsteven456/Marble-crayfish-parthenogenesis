@@ -1,0 +1,134 @@
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.10.3
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { salmon_index }
+### [ libType ] => { A }
+### [ mates1 ] => { fastq_files/SRR7124937_1.fastq }
+### [ mates2 ] => { fastq_files/SRR7124937_2.fastq }
+### [ threads ] => { 8 }
+### [ output ] => { salmon_output/SRR7124937_quant }
+Logs will be written to salmon_output/SRR7124937_quant/logs
+[2025-04-10 22:45:11.907] [jointLog] [info] setting maxHashResizeThreads to 8
+-----------------------------------------
+| Loading contig table | Time = 374.5 us
+-----------------------------------------
+size = 10
+-----------------------------------------
+| Loading contig offsets | Time = 264.33 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 12.754 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 239.22 us
+-----------------------------------------
+size = 18882
+Number of ones: 9
+Number of ones per inventory item: 512
+Inventory entries filled: 1
+-----------------------------------------
+| Loading contig boundaries | Time = 292.2 us
+-----------------------------------------
+size = 18882
+-----------------------------------------
+| Loading sequence | Time = 223.97 us
+-----------------------------------------
+size = 18612
+-----------------------------------------
+| Loading positions | Time = 229.72 us
+-----------------------------------------
+size = 18882
+-----------------------------------------
+| Loading reference sequence | Time = 220.52 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 9.769 us
+-----------------------------------------
+[2025-04-10 22:45:11.907] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2025-04-10 22:45:11.907] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2025-04-10 22:45:11.907] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2025-04-10 22:45:11.907] [jointLog] [info] parsing read library format
+[2025-04-10 22:45:11.907] [jointLog] [info] There is 1 library.
+[2025-04-10 22:45:11.907] [jointLog] [info] Loading pufferfish index
+[2025-04-10 22:45:11.907] [jointLog] [info] Loading dense pufferfish index.
+[2025-04-10 22:45:11.910] [jointLog] [info] done
+[2025-04-10 22:45:11.957] [jointLog] [info] Index contained 9 targets
+[2025-04-10 22:45:11.957] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,018 [32mfragments[0m
+hits: 10, hits per frag:  2.13601e-05[A[32mprocessed[31m 1,000,001 [32mfragments[0m
+hits: 26, hits per frag:  2.60802e-05[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 36, hits per frag:  2.44677e-05[A[32mprocessed[31m 2,000,009 [32mfragments[0m
+hits: 45, hits per frag:  2.28053e-05[A[32mprocessed[31m 2,500,003 [32mfragments[0m
+hits: 58, hits per frag:  2.34867e-05[A[32mprocessed[31m 3,000,004 [32mfragments[0m
+hits: 70, hits per frag:  2.3617e-05[A[32mprocessed[31m 3,500,011 [32mfragments[0m
+hits: 81, hits per frag:  2.33812e-05[A[32mprocessed[31m 4,000,001 [32mfragments[0m
+hits: 94, hits per frag:  2.36017e-05[A[32mprocessed[31m 4,500,000 [32mfragments[0m
+hits: 106, hits per frag:  2.36496e-05[A[32mprocessed[31m 5,000,019 [32mfragments[0m
+hits: 117, hits per frag:  2.35457e-05[A[32mprocessed[31m 5,500,002 [32mfragments[0m
+hits: 124, hits per frag:  2.25851e-05[A[32mprocessed[31m 6,000,021 [32mfragments[0m
+hits: 129, hits per frag:  2.15732e-05[A[32mprocessed[31m 6,500,000 [32mfragments[0m
+hits: 148, hits per frag:  2.28963e-05[A[32mprocessed[31m 7,000,054 [32mfragments[0m
+hits: 164, hits per frag:  2.35364e-05[A[32mprocessed[31m 7,500,000 [32mfragments[0m
+hits: 176, hits per frag:  2.35373e-05[A[32mprocessed[31m 8,000,000 [32mfragments[0m
+hits: 181, hits per frag:  2.26609e-05[A[32mprocessed[31m 8,500,003 [32mfragments[0m
+hits: 195, hits per frag:  2.29438e-05[A[32mprocessed[31m 9,000,062 [32mfragments[0m
+hits: 208, hits per frag:  2.31322e-05[A[32mprocessed[31m 9,500,028 [32mfragments[0m
+hits: 220, hits per frag:  2.32336e-05[A[32mprocessed[31m 10,000,005 [32mfragments[0m
+hits: 231, hits per frag:  2.31049e-05[A[32mprocessed[31m 10,500,002 [32mfragments[0m
+hits: 241, hits per frag:  2.30074e-05[A[32mprocessed[31m 11,000,003 [32mfragments[0m
+hits: 258, hits per frag:  2.35114e-05[A[32mprocessed[31m 11,500,000 [32mfragments[0m
+hits: 266, hits per frag:  2.318e-05[A[32mprocessed[31m 12,000,000 [32mfragments[0m
+hits: 277, hits per frag:  2.31338e-05[A[32mprocessed[31m 12,500,002 [32mfragments[0m
+hits: 283, hits per frag:  2.26845e-05[A[32mprocessed[31m 13,000,000 [32mfragments[0m
+hits: 298, hits per frag:  2.29775e-05[A[32mprocessed[31m 13,500,001 [32mfragments[0m
+hits: 311, hits per frag:  2.30493e-05[A[32mprocessed[31m 14,000,001 [32mfragments[0m
+hits: 321, hits per frag:  2.29773e-05[A[32mprocessed[31m 14,500,001 [32mfragments[0m
+hits: 330, hits per frag:  2.27784e-05[A[32mprocessed[31m 15,000,013 [32mfragments[0m
+hits: 339, hits per frag:  2.26495e-05[A[32mprocessed[31m 15,500,003 [32mfragments[0m
+hits: 352, hits per frag:  2.27455e-05[A[32mprocessed[31m 16,000,002 [32mfragments[0m
+hits: 371, hits per frag:  2.31966e-05[A[32mprocessed[31m 16,500,000 [32mfragments[0m
+hits: 382, hits per frag:  2.32011e-05[A[32mprocessed[31m 17,000,008 [32mfragments[0m
+hits: 398, hits per frag:  2.34589e-05[A[32mprocessed[31m 17,500,019 [32mfragments[0m
+hits: 415, hits per frag:  2.37191e-05[A[32mprocessed[31m 18,000,094 [32mfragments[0m
+hits: 431, hits per frag:  2.39455e-05[A[32mprocessed[31m 18,500,001 [32mfragments[0m
+hits: 443, hits per frag:  2.3987e-05[A[32mprocessed[31m 19,000,003 [32mfragments[0m
+hits: 452, hits per frag:  2.38285e-05[A[32mprocessed[31m 19,500,000 [32mfragments[0m
+hits: 463, hits per frag:  2.37733e-05[A[32mprocessed[31m 20,000,000 [32mfragments[0m
+hits: 475, hits per frag:  2.37789e-05[A[32mprocessed[31m 20,500,000 [32mfragments[0m
+hits: 487, hits per frag:  2.37636e-05[A[32mprocessed[31m 21,000,000 [32mfragments[0m
+hits: 498, hits per frag:  2.37184e-05
+
+
+
+
+
+
+
+[2025-04-10 22:45:49.841] [jointLog] [info] Computed 4 rich equivalence classes for further processing
+[2025-04-10 22:45:49.841] [jointLog] [info] Counted 502 total reads in the equivalence classes 
+[2025-04-10 22:45:49.844] [jointLog] [info] Number of mappings discarded because of alignment score : 81
+[2025-04-10 22:45:49.844] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 70
+[2025-04-10 22:45:49.844] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2025-04-10 22:45:49.844] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 0
+[2025-04-10 22:45:49.845] [jointLog] [warning] Only 502 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2025-04-10 22:45:49.845] [jointLog] [info] Mapping rate = 0.00237893%
+
+[2025-04-10 22:45:49.845] [jointLog] [info] finished quantifyLibrary()
+[2025-04-10 22:45:49.875] [jointLog] [info] Starting optimizer
+[2025-04-10 22:45:49.876] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2025-04-10 22:45:49.876] [jointLog] [info] iteration = 0 | max rel diff. = 10.1555
+[2025-04-10 22:45:49.877] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2025-04-10 22:45:49.877] [jointLog] [info] Finished optimizer
+[2025-04-10 22:45:49.877] [jointLog] [info] writing output 
+
+[2025-04-10 22:45:49.878] [jointLog] [warning] NOTE: Read Lib [[ fastq_files/SRR7124937_1.fastq, fastq_files/SRR7124937_2.fastq]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: salmon_output/SRR7124937_quant/lib_format_counts.json for details
+
