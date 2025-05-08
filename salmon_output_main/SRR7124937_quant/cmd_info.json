@@ -1,0 +1,10 @@
+{
+    "salmon_version": "1.10.3",
+    "index": "salmon_index",
+    "libType": "A",
+    "mates1": "fastq_files/SRR7124937_1.fastq",
+    "mates2": "fastq_files/SRR7124937_2.fastq",
+    "threads": "8",
+    "output": "salmon_output_main/SRR7124937_quant",
+    "auxDir": "aux_info"
+}
